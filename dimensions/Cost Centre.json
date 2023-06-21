@@ -1,0 +1,13 @@
+{
+	"@type":"Dimension",
+	"Name":"Cost Centre",
+	"AllLeavesHierarchyName":"",
+	"DefaultHierarchy":
+	{
+		"@id":"Dimensions('Cost Centre')/Hierarchies('Cost Centre')"
+	},
+	"Hierarchies@Code.links":
+	[
+		"Cost Centre.hierarchies/Cost Centre.json"
+	]
+}

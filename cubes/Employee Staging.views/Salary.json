@@ -1,0 +1,50 @@
+{
+	"@type":"NativeView",
+	"Name":"Salary",
+	"Columns":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Employee Staging Measure')/Hierarchies('Employee Staging Measure')"
+				},
+				"Expression":"{[Employee Staging Measure].[Employee Staging Measure].[Salary]}"
+			}
+		}
+	],
+	"Rows":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Employee')/Hierarchies('Employee')"
+				},
+				"Expression":"{TM1FILTERBYLEVEL({[Employee].[Employee].MEMBERS}, 0)}"
+			}
+		}
+	],
+	"Titles":
+	[
+		{
+			"Subset":
+			{
+				"Hierarchy":
+				{
+					"@id":"Dimensions('Version')/Hierarchies('Version')"
+				},
+				"Expression":"{[Version].[Version].Members}"
+			},
+			"Selected":
+			{
+				"@id":"Dimensions('Version')/Hierarchies('Version')/Elements('Forecast')"
+			}
+		}
+	],
+	"SuppressEmptyColumns":false,
+	"SuppressEmptyRows":false,
+	"FormatString":"0.#########"
+}

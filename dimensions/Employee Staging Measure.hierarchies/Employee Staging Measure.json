@@ -1,0 +1,36 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Employee Staging Measure",
+	"Elements":
+	[
+		{
+			"Name":"Age",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Cost Centre",
+			"Type":"String"
+		},
+		{
+			"Name":"Salary",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Start Date",
+			"Type":"String"
+		},
+		{
+			"Name":"Leave Date",
+			"Type":"String"
+		},
+		{
+			"Name":">3 Years of work",
+			"Type":"Numeric"
+		},
+		{
+			"Name":"Salary > 30 Years Old",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}

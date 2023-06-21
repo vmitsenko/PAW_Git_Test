@@ -1,0 +1,26 @@
+{
+	"@type":"Cube",
+	"Name":"Employee Summary",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Cost Centre')"
+		},
+		{
+			"@id":"Dimensions('Period')"
+		},
+		{
+			"@id":"Dimensions('Employee')"
+		},
+		{
+			"@id":"Dimensions('Employee Summary Measure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Employee Summary.views/Default.json"
+	]
+}

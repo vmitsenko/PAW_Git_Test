@@ -1,0 +1,22 @@
+{
+	"@type":"Cube",
+	"Name":"Employee Staging",
+	"Rules@Code.link":"Employee Staging.rules",
+	"Dimensions":
+	[
+		{
+			"@id":"Dimensions('Version')"
+		},
+		{
+			"@id":"Dimensions('Employee')"
+		},
+		{
+			"@id":"Dimensions('Employee Staging Measure')"
+		}
+	],
+	"Views@Code.links":
+	[
+		"Employee Staging.views/Salary.json",
+		"Employee Staging.views/Default.json"
+	]
+}

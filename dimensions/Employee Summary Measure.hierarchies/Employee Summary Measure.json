@@ -1,0 +1,12 @@
+{
+	"@type":"Hierarchy",
+	"Name":"Employee Summary Measure",
+	"Elements":
+	[
+		{
+			"Name":"Salary Costs",
+			"Type":"Numeric"
+		}
+	],
+	"Subsets@Code.links":[]
+}
