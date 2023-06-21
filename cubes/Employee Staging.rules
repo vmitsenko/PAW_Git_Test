@@ -5,6 +5,6 @@ SKIPCHECK;
 ['Salary > 30 Years Old']=N:IF(['Age']>30,['Salary'],CONTINUE);
 ['All Employees','Salary > 30 Years Old']=C:ConsolidatedAvg( 3, 'Employee Staging', !Version, !Employee,'Salary > 30 Years Old'  );
 
-['>3 Years of work']=N:IF( DayNo(['Start Date'])>1095, 1, 0 );
-FEEDERS;
-['Salary']=>['Salary > 30 Years Old'];
+#['>3 Years of work']=N:IF( DayNo(['Start Date'])>1095, 1, 0 );
+#FEEDERS;
+#['Salary']=>['Salary > 30 Years Old'];
